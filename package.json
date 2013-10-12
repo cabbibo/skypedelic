@@ -1,0 +1,22 @@
+{
+  "name": "skypedelic",
+  "version": "0.0.0",
+  "description": "WebRTC + WebAudioAPI",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cabbibo/skypedelic.git"
+  },
+  "keywords": [
+    "WebRTC",
+    "WebAudioAPI",
+    "Psychedelic"
+  ],
+  "author": "Cabbibo",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "6ec2d7cf1dcfce811540d2066ba05e42983c891f"
+}
