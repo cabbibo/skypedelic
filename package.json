@@ -4,6 +4,7 @@
   "description": "WebRTC + WebAudioAPI",
   "main": "index.html",
   "scripts": {
+    "start": "server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +19,16 @@
   "author": "Cabbibo",
   "license": "BSD",
   "readmeFilename": "README.md",
-  "gitHead": "6ec2d7cf1dcfce811540d2066ba05e42983c891f"
+  "gitHead": "6ec2d7cf1dcfce811540d2066ba05e42983c891f",
+
+  "engines":{
+    "node": "0.10.1",
+    "npm":  "1.2.15"
+  },
+
+  "dependencies":{
+    "socket.io":"~0.9.16",
+    "node-static":"0.6.9"
+  }
+
 }
