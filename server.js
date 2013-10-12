@@ -3,13 +3,14 @@ var http = require('http');
 var file = new(static.Server)();
 var app = http.createServer(function (req, res) {
   file.serve(req, res);
-}).listen(2013);
+}).listen(5000);
 
+console.log('sss');
 var io = require('socket.io').listen(app);
 
 io.sockets.on('connection', function (socket){
 
-  // convenience function to log server messages on the client
+    // convenience function to log server messages on the client
 	function log(){
 		var array = [">>> Message from server: "];
 	  for (var i = 0; i < arguments.length; i++) {
